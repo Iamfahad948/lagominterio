@@ -1,0 +1,98 @@
+.contact {
+    padding: 60px 0;
+    background-color: white;
+  }
+
+  .contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+
+  .logo {
+    margin-bottom: 2rem;
+  }
+
+  .logo img {
+    height: 60px;
+    margin-bottom: 1rem;
+  }
+
+  .logo h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .logo p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .welcome-text {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .contact-details {
+    margin-bottom: 2rem;
+  }
+
+  .contact-details p {
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-details a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  .form-intro, .consultation-text {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .contact-form {
+    background: #f8f8f8;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+  }
+
+  textarea.form-control {
+    resize: vertical;
+    min-height: 120px;
+  }
+
+  .btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #e67e3b;
+  }
+
+  @media (max-width: 768px) {
+    .contact-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
