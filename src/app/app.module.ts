@@ -9,6 +9,10 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectComponent } from './project/project.component';
 import { FooterComponent } from './footer/footer.component';
+import { PlansComponent } from './plans/plans.component';
+import { DrawingsComponent } from './drawings/drawings.component';
+import { DesginsComponent } from './designs/desgins.component';
+import { ElevationsComponent } from './elevations/elevations.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     AboutComponent,
     ProjectComponent,
-    FooterComponent
+    FooterComponent,
+    PlansComponent,
+    DrawingsComponent,
+    DesginsComponent,
+    ElevationsComponent,
   ],
   imports: [
     BrowserModule,
