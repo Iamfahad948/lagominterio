@@ -11,8 +11,9 @@ import { ProjectComponent } from './project/project.component';
 import { FooterComponent } from './footer/footer.component';
 import { PlansComponent } from './plans/plans.component';
 import { DrawingsComponent } from './drawings/drawings.component';
-import { DesginsComponent } from './designs/desgins.component';
+
 import { ElevationsComponent } from './elevations/elevations.component';
+import { DesignsComponent } from './designs/designs.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +25,9 @@ import { ElevationsComponent } from './elevations/elevations.component';
     FooterComponent,
     PlansComponent,
     DrawingsComponent,
-    DesginsComponent,
+
     ElevationsComponent,
+    DesignsComponent,
   ],
   imports: [
     BrowserModule,
