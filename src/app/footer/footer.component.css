@@ -22,6 +22,11 @@
     margin-bottom: 1.5rem;
   }
 
+  .footer-section img {
+    width: auto;
+    height: 38px;
+  }
+
   .more-link {
     color: var(--primary-color);
     text-decoration: none;
