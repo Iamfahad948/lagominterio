@@ -14,6 +14,7 @@ import { DrawingsComponent } from './drawings/drawings.component';
 
 import { ElevationsComponent } from './elevations/elevations.component';
 import { DesignsComponent } from './designs/designs.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { DesignsComponent } from './designs/designs.component';
 
     ElevationsComponent,
     DesignsComponent,
+    NavComponent,
   ],
   imports: [
     BrowserModule,
