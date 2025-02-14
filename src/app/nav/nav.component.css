@@ -5,12 +5,12 @@
     padding: 15px 30px;
     background: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure proper positioning */
 }
 
 .logo img {
     height: 60px;
 }
-
 
 .container {
     display: flex;
@@ -69,5 +69,56 @@
 
     .nav li {
         text-align: center;
+    }
+}
+
+/* Menu Icon - Hamburger */
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+    right: 20px; /* Move to the right */
+    top: 20px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: white;
+        width: 100%;
+        padding: 10px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .nav li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Hide the phone number from the top bar */
+    .phone {
+        display: none;
+    }
+
+    /* Move phone number inside the menu */
+    .nav .phone-menu {
+        display: block;
+        font-weight: bold;
+        padding: 15px;
     }
 }
