@@ -20,14 +20,18 @@
   }
 
   .about-image img {
-    width: 70%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }
 
   @media (max-width: 768px) {
     .about-content {
       grid-template-columns: 1fr;
+    }
+
+    .about-image img {
+      max-height: 500px;
+      object-fit: contain;
     }
   }
